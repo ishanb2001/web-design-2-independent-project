@@ -1,0 +1,60 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0 .4em;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  flex-direction: column;
+  font-size: 1.5rem;
+  align-items: flex-start;
+  margin: 0 0 1.5rem;
+}
+
+nav li {
+  padding: 1rem .5rem;
+}
+
+header {
+  flex-direction: column;
+  align-items: left;
+  display: flex;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+}
+
+main {
+  padding: 0 1rem;
+  text-align: center;
+  margin: 0 0 1.5rem;
+}
