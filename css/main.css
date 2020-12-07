@@ -156,3 +156,41 @@ nav a:hover {
   color: #fff;
   background-color: #333;
 }
+
+h4{
+ font-size: 2rem;
+ text-align: left;
+}
+
+.who-are-we{
+ font-size: 1rem;
+ text-align: left;
+}
+
+.objective {
+  text-align: left;
+}
+
+.who-wrapper {
+  background-color: #b1bb78;
+}
+
+.objective-wrapper {
+  background-color: #eed59a;
+}
+
+.workshops {
+  background-color: #eed59a;
+}
+
+.workshops-title {
+  margin-top: 4rem;
+}
+
+.who-image {
+  width: 30rem;
+}
+
+.objective-image {
+  width: 30rem;
+}
