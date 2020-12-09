@@ -214,3 +214,23 @@ flex-wrap: wrap;
 section{
   margin-top: 5rem;
 }
+
+
+.banner-content {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  top: 50%;
+  width: 100%;
+  left: 35%;
+  max-width: 45em;
+
+  transform: translate(-50%, -50%);
+}
+
+.banner {
+  max-height: 600px;
+  position: relative;
+  overflow: hidden;
+}
