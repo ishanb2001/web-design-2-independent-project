@@ -276,3 +276,12 @@ section{
   float: left;
   width: 50%;
 }
+
+.btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 14px 20px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1rem;
+}
