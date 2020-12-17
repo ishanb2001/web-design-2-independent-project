@@ -5,51 +5,50 @@
   <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="icon" href="favicon-196.png" type="image/png">
+<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
 
   <ul class="skip-links">
-  <li><a href="#header">skip to Header</a></li>
-   <li><a href="#nav">skip to Navigation</a></li>
+    <li><a href="#nav">skip to navigation</a></li>
+   <li><a href="#banner">skip to banner</a></li>
    <li><a href="#main">skip to Main</a></li>
  </ul>
 
-  <header role="banner">
-     <h1>Chef Deck</h1>
+<header class="banner" id="logo" tabindex="0" role="banner">
+      <h1>Chef Deck</h1>
 
-     <nav role="navigation">
-      <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="workshops.html">Workshops</a></li>
-      <li><a href="speakers.html">Speakers</a></li>
-    </ul>
-    </nav>
-  </header>
+ <nav class="navigation" id="nav" tabindex="0" role="navigation">
+       <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="workshops.html">Workshops</a></li>
+       <li><a href="speakers.html">Speakers</a></li>
+     </ul>
+   </nav>
 
-    <div class="banner">
-      <img class="img-flex" src="images/pasta.jpeg" alt="">
+      <img class="img-flex" src="images/pasta.jpg" alt="">
 
       <div class="banner-content">
 
         <div class="banner-text">
           <h2 class="banner-title">Improve your cooking skills today!</h2>
           <p class="banner-headline">First 30 days free</p>
-          <a class="btn" href="#">Register Now</a>
         </div>
       </div>
-    </div>
+    </header>
 
-     <main class="main" role="main" id="main">
+    <main class="main" id="main" role="main" tabindex="0">
 
     <section>
        <div class="who-wrapper">
-         <img class="who-image" src="images/about.jpeg" alt="">
+         <img class="who-image" src="images/about.jpg" alt="">
 
          <div class="who-are-we">
 
            <h2 class="subheaders">Who Are We?</h2>
            <p>Chef Deck is a team of certified chefs ready to improve other individuals on their cooking skills. We offer an extensive amount of courses ranging from vegan cooking to Ayurveda cooking. Our training can be taught online or in-person on any device.</p>
-
+           <a class="btn" href="index.html">Learn More</a>
          </div>
        </div>
      </section>
@@ -73,7 +72,7 @@
 </div>
 </main>
 
-<footer>
+<footer class="footer" id="footer" tabindex="0" role="contentinfo">
   <p class="footer-text">Chef Deck</p>
   <p class="footer-email">info@chefdeck.com</p>
 </footer>

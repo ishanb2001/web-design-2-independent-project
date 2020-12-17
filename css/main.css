@@ -65,7 +65,6 @@ nav li {
 
 header {
   flex-direction: column;
-  align-items: left;
   display: flex;
 }
 
@@ -256,6 +255,10 @@ section{
   transform: translate(-50%, -50%);
 }
 
+.page-banner {
+  max-height: 400px;
+}
+
 .banner {
   max-height: 750px;
   position: relative;
@@ -284,4 +287,27 @@ section{
   text-align: left;
   text-decoration: none;
   font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.speaker-img {
+  align-items: center;
+  width: 50%;
+}
+
+dt {
+  font-size: 2em;
 }
