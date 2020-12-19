@@ -4,59 +4,54 @@
   <meta charset="utf-8">
   <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet"
+  <link href="css/main.css" rel="stylesheet">
 </head>
+
 <body>
+  <header role="logo">
+    <h1>
+      <img class="logo" src="images/logo.svg">
+    </h1>
 
-  <header role="banner">
-     <h1>Chef Deck</h1>
-    <nav>
-      <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="workshops.html">Workshops</a></li>
-      <li><a href="speakers.html">Speakers</a></li>
-      <ul>
+    <nav role="navigation" id="nav" tabindex="0">
+      <nav>
+        <ul>
+          <li class="button"><a href="index.html">Home</a></li>
+          <li class="button"><a href="workshops.html">Workshops</a></li>
+          <li class="button"><a href="speakers.html">Speakers</a></li>
+        </ul>
+      </nav>
     </nav>
+  </header>
 
-    <div class="banner">
-      <img class="page-banner" src="images/pasta.jpg" alt="">
+  <main class="main" role="main" id="main">
 
-      <div class="banner-content">
-
-        <div class="banner-text">
-          <h2 class="banner-title">Speakers</h2>
-          <p class="banner-headline">Meet the Crew!</p>
-        </div>
+    <dl>
+      <div>
+        <dt>Sona Patel</dt>
+        <dd>Born in India, Sona has been introduced to Ayurveda and vegan cooking at a young age. She has been cooking at a young age with her parents and family as an inspiration.</dd>
+        <img class="speaker-img" src="images/sona.jpeg" alt="">
       </div>
-    </div>
-
-    <main class="main" role="main" id="main">
-
-      <dl>
-        <div>
-          <dt>Sona Patel</dt>
-          <dd>Born in India, Sona has been introduced
-    to Ayurveda and vegan cooking at a young age. She has been cooking at a young age with her parents and family as an inspiration.</dd>
-    <img class="speaker-img" src="images/sona.jpeg" alt="">
-        </div>
-        <div>
-          <dt>Oliver Joseph</dt>
-          <dd>Many trainees value Oliver’s love and passion for cooking in our workshops. Oliver has been cooking since he was eight years old.</dd>
-          <img class="speaker-img" src="images/sona.jpeg" alt="">
-        </div>
-        <div>
-          <dt>Steve Hall</dt>
-          <dd>Steve Hall, a culinary graduate from Algonquin college is very experienced in cooking. He has picked up a lot of experience during his teenage years.</dd>
-          <img class="speaker-img" src="images/sona.jpeg" alt="">
-        </div>
-        <div>
-          <dt>Oliver Joseph</dt>
-          <dd>Many trainees value Oliver’s love and passion for cooking in our workshops. Oliver has been cooking since he was eight years old.</dd>
-          <img class="speaker-img" src="images/sona.jpeg" alt="">
-        </div>
-      </dl>
-
-      <footer class="footer" id="footer" tabindex="0" role="contentinfo">
-        <p class="footer-text">Chef Deck</p>
-        <p class="footer-email">info@chefdeck.com</p>
-      </footer>
+      <div>
+        <dt>Oliver Joseph</dt>
+        <dd>Many trainees value Oliver’s love and passion for cooking in our workshops. Oliver has been cooking since he was eight years old.</dd>
+        <img class="speaker-img" src="images/sona.jpeg" alt="">
+      </div>
+      <div>
+        <dt>Steve Hall</dt>
+        <dd>Steve Hall, a culinary graduate from Algonquin college is very experienced in cooking. He has picked up a lot of experience during his teenage years.</dd>
+        <img class="speaker-img" src="images/sona.jpeg" alt="">
+      </div>
+      <div>
+        <dt>Oliver Joseph</dt>
+        <dd>Many trainees value Oliver’s love and passion for cooking in our workshops. Oliver has been cooking since he was eight years old.</dd>
+        <img class="speaker-img" src="images/sona.jpeg" alt="">
+      </div>
+    </dl>
+  </main>
+  <footer class="footer" id="footer" tabindex="0" role="contentinfo">
+    <p class="footer-text">Chef Deck</p>
+    <p class="footer-email">info@chefdeck.com</p>
+  </footer>
+</body>
+</html>

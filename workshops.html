@@ -4,66 +4,56 @@
   <meta charset="utf-8">
   <title>Home</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet"
+  <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
-  <header role="banner">
-     <h1>Chef Deck</h1>
+  <header role="logo">
+    <h1>
+      <img class="logo" src="images/logo.svg">
+    </h1>
 
-
-    <nav>
-      <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="workshops.html">Workshops</a></li>
-      <li><a href="speakers.html">Speakers</a></li>
-      <ul>
+    <nav role="navigation" id="nav" tabindex="0">
+      <nav>
+        <ul>
+          <li class="button"><a href="index.html">Home</a></li>
+          <li class="button"><a href="workshops.html">Workshops</a></li>
+          <li class="button"><a href="speakers.html">Speakers</a></li>
+        </ul>
+      </nav>
     </nav>
+  </header>
 
-    <div class="banner">
-      <img class="page-banner" src="images/vegan.jpg" alt="">
+  <div class="workshop-cards">
+    <section class="section-1">
+      <a class="hovered-box" href="#">
+        <img src="images/ayurvida.jpeg" alt="">
+        <h2> Ayurvida Cooking </h2>
+      </a>
+      <a class="hovered-box" href="#">
+        <img src="images/pastry.jpeg" alt="">
+        <h2>Pastry Cooking</h2>
+      </a>
+      <a class="hovered-box" href="#">
+        <img src="images/vegan.jpg" alt="">
+        <h2>Vegan Cooking</h2>
+      </a>
+    </section>
 
-      <div class="banner-content">
-
-        <div class="banner-text">
-          <h2 class="banner-title">Workshops</h2>
-          <p class="banner-headline"></p>
-        </div>
-      </div>
-    </div>
-
-<div class="workshop-cards">
-     <section class="section-1">
-    <a class="hovered-box" href="#">
-      <img src="images/ayurvida.jpeg" alt="">
-      <h2> Ayurvida Cooking </h2>
-    </a>
-    <a class="hovered-box" href="#">
-      <img src="images/pastry.jpeg" alt="">
-      <h2>Pastry Cooking</h2>
-    </a>
-    <a class="hovered-box" href="#">
-      <img src="images/vegan.jpg" alt="">
-      <h2>Vegan Cooking</h2>
-    </a>
-  </section>
-
-<section class="section-1">
-    <a class="hovered-box-2" href="#">
-      <img src="images/ayurvida.jpeg" alt="">
-      <h2> Ayurvida Cooking </h2>
-    </a>
-    <a class="hovered-box-2" href="#">
-      <img src="images/pastry.jpeg" alt="">
-      <h2>Pastry Cooking</h2>
-    </a>
-    <a class="hovered-box-2" href="#">
-      <img src="images/vegan.jpg" alt="">
-      <h2>Vegan Cooking</h2>
-    </a>
-  </section>
-</div>
-
-   </figure>
-      </body>
-      </html>
+    <section class="section-1">
+      <a class="hovered-box-2" href="#">
+        <img src="images/ayurvida.jpeg" alt="">
+        <h2> Ayurvida Cooking </h2>
+      </a>
+      <a class="hovered-box-2" href="#">
+        <img src="images/pastry.jpeg" alt="">
+        <h2>Pastry Cooking</h2>
+      </a>
+      <a class="hovered-box-2" href="#">
+        <img src="images/vegan.jpg" alt="">
+        <h2>Vegan Cooking</h2>
+      </a>
+    </section>
+  </div>
+</body>
+</html>

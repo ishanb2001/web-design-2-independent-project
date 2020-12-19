@@ -20,30 +20,7 @@ html {
 
 body {
   margin: 0;
-}
-
-header {
-  padding: .5rem 0;
-  background-color: white;
-  text-align: center;
-}
-
-h1 {
-  font-size: 3rem;
-  margin: 0 0 .5rem;
-}
-
-p {
-  font-size: 1.5rem;
-}
-
-nav ul {
-  list-style-type: none;
   padding: 0;
-  display: flex;
-  margin: 0 .4em;
-  justify-content: center;
-  margin-bottom: 1rem;
 }
 
 img {
@@ -51,49 +28,88 @@ img {
   width: 100%;
 }
 
-.subheaders {
-  flex-direction: column;
-  font-size: 3rem;
-  align-items: flex-start;
-  margin: 0 0 1.5rem;
-  text-align: left;
+nav li {
+  padding: .2em 1em;
+  background-color: #2b4d59;
+  color: #fff;
+  border: 1px solid;
+  border-color: #2b4d59;
+  text-decoration: none;
+  display: inline-block;
 }
 
-nav li {
-  padding: 1rem .5rem;
+a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #95a6ac;
+  color: #000;
+  border: 1px solid #fff;
+  border-color: #fff;
+  text-decoration: none;
 }
 
 header {
-  flex-direction: column;
-  display: flex;
-}
-
-main {
+  padding: .5rem 0;
+  background-color: #2b4d59;
   text-align: center;
-  margin: 0 0 1.5rem;
 }
 
-.paragraph{
-  top: 50%;
-  left: 50%;
-  transform: translate(-190%, -50%);
-  text-align: left;
-  position: absolute;
+.btn1 {
+  background-color: black;
   color: white;
+  text-decoration: none;
+  padding: .2em 1em;
 }
 
-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+li {
+  display: inline-block;
+}
+
+a:hover {
+  background-color: white;
+  color: #dbd6cf;
+}
+
+a.btn1:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn2 {
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  padding: .2em 1em;
+}
+
+a.btn2:hover {
+  background-color: black;
+  color: #fff;
+  border: 1px solid gray;
+}
+
+.button {
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  padding: .2em 1em;
+}
+
+a.button:hover {
+  background-color: black;
+  color: #fff;
+  border: 1px solid gray;
+}
+
+.logo {
+  width: 500%;
 }
 
 .hovered-box {
   margin-top: 3rem;
-  padding: 1rem .5rem;
-}
-
-.hovered-box-2 {
-  margin-top: 2rem;
   padding: 1rem .5rem;
 }
 
@@ -102,6 +118,11 @@ section {
   padding: 0;
   width: 100%;
   display: block;
+}
+
+.hovered-box-2 {
+  margin-top: 2rem;
+  padding: 1rem .5rem;
 }
 
 .hovered-box-2 img {
@@ -147,80 +168,20 @@ section {
   padding: 100px;
 }
 
-.about{
-  width: 33em;
-}
-
-nav li {
-  text-align: left;
-}
-
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-nav a {
-  color: #333;
-  text-decoration: none;
-  display: block;
-  padding: .5em .75em;
-}
-
-
-nav a:hover {
-  color: #fff;
-  background-color: #333;
-}
-
-h4{
- font-size: 2rem;
- text-align: left;
-}
-
-.who-are-we{
- font-size: 1rem;
- display: inline;
- text-align: left;
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .objective {
   text-align: left;
 }
 
-.who-wrapper {
-  background-color: #b1bb78;
-  padding: 20px 40px 40px;
-  max-width: 100%;
-  margin-top: 5rem;
-}
-
-img {
-  width: 100%;
-  display: block;
-}
-
 .objective-wrapper {
   max-width: 100%;
   padding: 20px 40px 40px;
-  margin-top: 5rem;
-}
-
-.workshops {
-  background-color: #eed59a;
-}
-
-.workshops-title {
-  margin-top: 4rem;
-}
-
-.who-image {
-  width: 30%;
-  margin: 30px 30px 30px 0;
-  float: left;
-
+  margin-top: 1rem;
+  background-color: #3aafa9;
 }
 
 .objective-image {
@@ -229,19 +190,21 @@ img {
   float: left;
 }
 
-.sponsor-wrapper {
-text-align: center;
+.who {
+  text-align: left;
 }
 
-.sponsor-logos{
-width: 30%;
-display: inline-flex;
-flex-wrap: wrap;
+.who-wrapper {
+  max-width: 100%;
+  padding: 20px 40px 40px;
+  margin-top: 5rem;
 }
 
-section{
+.who-image {
+  width: 30%;
+  margin: 30px 30px 30px 0;
+  float: left;
 }
-
 
 .banner-content {
   position: absolute;
@@ -251,12 +214,6 @@ section{
   width: 100%;
   left: 35%;
   max-width: 45em;
-
-  transform: translate(-50%, -50%);
-}
-
-.page-banner {
-  max-height: 400px;
 }
 
 .banner {
@@ -267,47 +224,118 @@ section{
 
 .banner-title {
   font-size: 4rem;
-  text-align: left
+  text-align: left;
 }
 
 .banner-headline {
   font-size: 3rem;
-  text-align: left
-}
-
-.sponsor {
-  float: left;
-  width: 50%;
-}
-
-.btn {
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 14px 20px;
   text-align: left;
-  text-decoration: none;
-  font-size: 1rem;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: #0074d9;
-  color: #fff;
-}
-
-dl {
+.sponsor.logos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
-.speaker-img {
-  align-items: center;
-  width: 50%;
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
 }
 
-dt {
-  font-size: 2em;
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
 }
