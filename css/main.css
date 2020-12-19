@@ -109,7 +109,6 @@ a.button:hover {
 }
 
 .hovered-box {
-  margin-top: 3rem;
   padding: 1rem .5rem;
 }
 
@@ -217,7 +216,7 @@ section {
 }
 
 .banner {
-  max-height: 750px;
+  max-height: 500px;
   position: relative;
   overflow: hidden;
 }
@@ -225,15 +224,21 @@ section {
 .banner-title {
   font-size: 4rem;
   text-align: left;
+  background-color: rgba(0, 255, 0, 0.5);
 }
 
 .banner-headline {
   font-size: 3rem;
   text-align: left;
+  background-color: rgba(0, 255, 0, 0.5);
 }
 
-.sponsor.logos {
+.sponsor{
+  width: 10%;
   display: grid;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 25em) {
@@ -251,6 +256,11 @@ section {
   nav {
     display: inline-block;
     vertical-align: middle;
+  }
+
+  .workshops {
+    text-align: center;
+    font-size: 5rem;
   }
 
   h1 {
