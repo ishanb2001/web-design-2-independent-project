@@ -21,7 +21,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 img {
@@ -235,7 +235,7 @@ dl {
   overflow: hidden;
 }
 
-.sponsor{
+.sponsor {
   width: 10%;
   display: grid;
   display: inline-block;
@@ -245,22 +245,22 @@ dl {
 
 .sona {
   background-color: #cd7e59;
-  padding: 70px 70px 70px;
+  padding: 70px;
 }
 
 .oliver {
   background-color: #ddb247;
-  padding: 70px 70px 70px;
+  padding: 70px;
 }
 
 .steve {
   background-color: #5a6868;
-  padding: 70px 70px 70px;
+  padding: 70px;
 }
 
 .jim {
   background-color: #457373;
-  padding: 70px 70px 70px;
+  padding: 70px;
 }
 
 @media only screen and (min-width: 25em) {
@@ -278,15 +278,14 @@ dl {
   .banner-title {
     font-size: 1rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
 
   .banner-headline {
     font-size: 1rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
-
 
   nav {
     display: inline-block;
@@ -326,13 +325,13 @@ dl {
   .banner-title {
     font-size: 2rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
 
   .banner-headline {
     font-size: 2rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
 
   nav {
@@ -364,13 +363,13 @@ dl {
   .banner-title {
     font-size: 2rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
 
   .banner-headline {
     font-size: 2rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
 
   nav {
@@ -401,13 +400,13 @@ dl {
   .banner-title {
     font-size: 4rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
 
   .banner-headline {
     font-size: 4rem;
     text-align: left;
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, .5);
   }
 
   header {
