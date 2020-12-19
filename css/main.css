@@ -216,22 +216,22 @@ section {
   max-width: 45em;
 }
 
+dl {
+  display: grid;
+}
+
+.banner-title {
+  transform: translateX(-20.5rem);
+}
+
+.banner-headline {
+  transform: translateX(-20.5rem);
+}
+
 .banner {
   max-height: 500px;
   position: relative;
   overflow: hidden;
-}
-
-.banner-title {
-  font-size: 4rem;
-  text-align: left;
-  background-color: rgba(0, 255, 0, 0.5);
-}
-
-.banner-headline {
-  font-size: 3rem;
-  text-align: left;
-  background-color: rgba(0, 255, 0, 0.5);
 }
 
 .sponsor{
@@ -254,6 +254,19 @@ section {
     text-align: left;
   }
 
+  .banner-title {
+    font-size: 1rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
+  .banner-headline {
+    font-size: 1rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
+
   nav {
     display: inline-block;
     vertical-align: middle;
@@ -262,6 +275,10 @@ section {
   .workshops {
     text-align: center;
     font-size: 5rem;
+  }
+
+  footer {
+    text-align: center;
   }
 
   h1 {
@@ -283,6 +300,18 @@ section {
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: left;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
+  .banner-headline {
+    font-size: 2rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
   }
 
   nav {
@@ -311,6 +340,18 @@ section {
     text-align: left;
   }
 
+  .banner-title {
+    font-size: 2rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
+  .banner-headline {
+    font-size: 2rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
   nav {
     display: inline-block;
     vertical-align: middle;
@@ -334,6 +375,18 @@ section {
   nav {
     display: inline-block;
     vertical-align: middle;
+  }
+
+  .banner-title {
+    font-size: 4rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
+  .banner-headline {
+    font-size: 4rem;
+    text-align: left;
+    background-color: rgba(0, 255, 0, 0.5);
   }
 
   header {
