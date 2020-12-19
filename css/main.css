@@ -218,6 +218,7 @@ section {
 
 dl {
   display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .banner-title {
@@ -240,6 +241,26 @@ dl {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sona {
+  background-color: #cd7e59;
+  padding: 70px 70px 70px;
+}
+
+.oliver {
+  background-color: #ddb247;
+  padding: 70px 70px 70px;
+}
+
+.steve {
+  background-color: #5a6868;
+  padding: 70px 70px 70px;
+}
+
+.jim {
+  background-color: #457373;
+  padding: 70px 70px 70px;
 }
 
 @media only screen and (min-width: 25em) {
